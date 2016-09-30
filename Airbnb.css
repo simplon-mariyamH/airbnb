@@ -1,0 +1,157 @@
+html {
+  height: 10000px;
+  background-color: #C0C0C0;
+  width:1000px;
+  /*A VOIR C QUOI responsive*/
+}
+/*body {
+  background-image: url(13702472_313126775688099_591492319_o.jpg);
+  background-position: fixed;
+  background-repeat:no-repeat;
+  background-position:no-repeat;
+  width: 100%;
+  top: 0; left: 0;
+}*/
+#imagedefond {
+  z-index : 1;
+}
+ul {
+    z-index: 2;
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    top: 10px;
+    position: absolute;
+    right: 1px;
+}
+
+li {
+    z-index: 2;
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+  }
+#logo {
+    z-index: 2;
+    width: 107px;
+    height: 40px;
+    top: 33px;
+    position: absolute;
+    left: 32px;
+  }
+li span {
+    border: 2px solid white;
+    padding: 5px;
+}
+#premier h1 {
+    font-weight: bold;
+    color: white;
+    top: 140px;
+    position: absolute;
+    margin-left: 500px;
+}
+#premier h3 {
+    font-weight: bold;
+    color: white;
+    top: 200px;
+    position: absolute;
+    margin-left: 200px;
+}
+#barre_recherche {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+  background-color: black;
+  position: absolute;
+  top: 330px;
+  width: 100%;
+}
+form {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+
+
+.box {
+    border: 1px solid #C0C0C0;
+    margin-top: 450px;
+    display: inline-block;
+    position: absolute;
+    left: 190px;
+    width: 900px;
+    background-color: white;
+}
+img {
+  display: inline-block;
+  float: left;
+}
+
+.box h3 {
+    display: inline-block;
+    font-family: arial;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.box p {
+    font-size: 18px;
+    display: inline-block;
+    font-family: arial;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.bouton {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.texte {
+    position: relative;
+    text-align: left;
+    margin-left: 500px;
+    font-family: helvetica;
+}
+.texte2 {
+    position: absolute;
+    margin-top: 725px;
+    left: 400px;
+}
+.texte2 h3 {
+  font-family: helvetica;
+  text-align: center;
+}
+.texte2 p {
+  font-family: helvetica;
+  text-align: center;
+}
+.bouton2 {
+  display: block;
+  position: absolute;
+  margin-top: 800px;
+}
+#lille {
+  position: absolute;
+  left: 150px;
+}
+#bruxelles {
+  position: absolute;
+  left: 500px;
+}
+#londres {
+  position: absolute;
+  left: 850px;
+}
+/*@media screen and (max-width : 800px) {
+  #premier {
+    width: 50%;
+  }
+  
+}
